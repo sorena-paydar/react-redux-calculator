@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import "./Variables";
+
+.button {
+  font-family: "Roboto";
+  outline: none;
+  border: none;
+  width: 40px;
+  height: 40px;
+  font-size: 1.2rem;
+  font-weight: 900;
+  background: transparent;
+  color: $textColor;
+  position: relative;
+}
+
+.isEqualSign {
+  background: $displayColor;
+  border-radius: 30px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 35px;
+  bottom: 35px;
+  color: #ffffff;
+}
+
+.isNan {
+  color: $displayColor;
+}
