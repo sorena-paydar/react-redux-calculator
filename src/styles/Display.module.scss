@@ -1,14 +1,30 @@
 @import "./Variables";
 
-.screen {
+.expression {
   display: flex;
   flex-flow: row wrap;
-  height: 100px;
+  height: 30px;
   background-color: none;
   justify-content: flex-end;
   align-items: flex-end;
   padding: 20px 20px 0 20px;
   border-radius: 20px 20px 0 0;
+  font-size: 1rem;
+  background: $displayColor;
+  color: $calculatorColor;
+  overflow: hidden;
+  word-break: break-all;
+  white-space: normal;
+}
+
+.total {
+  display: flex;
+  flex-flow: row wrap;
+  height: 50px;
+  background-color: none;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 20px 20px 0 20px;
   font-size: 2.5rem;
   background: $displayColor;
   color: $calculatorColor;
