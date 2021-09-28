@@ -2,16 +2,16 @@ import React, { useState } from "react";
 import styles from "../styles/Button.module.scss";
 import cn from "classnames";
 import { useDispatch } from "react-redux";
-import * as fromCalculator from "../store";
+import * as fromCalculator from "../redux/store";
 import { connect } from "react-redux";
-import { calculate } from "../actions/actions";
+import { calculate } from "../redux/actions/actions";
 import {
   deleteLastEntry,
   clear,
   evaluateExpression,
   squareRoot,
   percentage,
-} from "../actions/actions";
+} from "../redux/actions/actions";
 
 export const Button = (props: {
   button: string | React.ReactNode;

@@ -1,5 +1,5 @@
 import * as types from "../actions/actionTypes";
-import Calculate from "../utils/Calculate";
+import Calculate from "../../utils/Calculate";
 
 const initialState = {
   expression: "",
