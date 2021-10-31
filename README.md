@@ -1,6 +1,6 @@
 # React Redux Calculator
 
-Simple calculator created with react redux
+A calculator using React Redux for state management
 
 ![image](https://user-images.githubusercontent.com/76770827/135158819-9d8d0bf4-5f9a-44fd-a977-93d24e9b08a9.png)
 
